@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TEA EMOTION</title>
+
+    <!--CSS-->
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+
+    <script>
+      $(function() {
+        const swiper = new Swiper(".swiper-container", {
+          // Optional parameters
+          loop: true,
+
+          // If we need pagination
+          pagination: {
+            el: ".swiper-pagination"
+          },
+          autoplay: {
+            delay: 2000
+          },
+          // Navigation arrows
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          },
+
+          // And if we need scrollbar
+          scrollbar: {
+            el: ".swiper-scrollbar"
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!--ヘッダー-->
+    <header class="header">
+      <!--ヘッダ1ー-->
+      <div class="header-1">
+        <a href="index.html">
+          <div class="rogo"><img src="./img/rogo.png" alt="rogo" /></div>
+        </a>
+        <a href="https://azumi0910.thebase.in">
+          <div class="online">
+            <img src="./img/online-btn.png" alt="online-btn" />
+          </div>
+        </a>
+      </div>
+      <div class="header-border"></div>
+      <!--ヘッダ2ー-->
+      <div class="header-nav">
+        <a href="about.html"
+          ><div><img src="./img/nav-btn1.png" alt="bav-btn1" /></div>
+        </a>
+        <a href="features.html"
+          ><div><img src="./img/nav-btn2.png" alt="bav-btn2" /></div>
+        </a>
+        <div class="header-nav-item">
+          <a href="item.html">
+          <div><img src="./img/nav-btn3.png" alt="bav-btn3" /></div>
+          <div class="header-nav-list">
+            <div><img src="./img/item-list-btn.png" alt="" /></div></a>
+            <a href="gift.html"><div><img src="./img/gift-btn.png" alt="" /></div></a>
+            <a href="home.html"><div><img src="./img/home-btn.png" alt="" /></div></a>
+          </div>
+        </div>
+        <a href="howto.html"
+          ><div><img src="./img/nav-btn4.png" alt="bav-btn4" /></div>
+        </a>
+        <a href="access.html"
+          ><div><img src="./img/nav-btn5.png" alt="bav-btn5" /></div>
+        </a>
+        <a href="contact.html"
+          ><div><img src="./img/nav-btn6.png" alt="bav-btn6" /></div>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div><img src="./img/bland.jpg" alt="about" /></div>
+    </main>
+    <!--footerー-->
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="about.html"
+          ><div><img src="./img/footer-nav-btn1.png" alt="bav-btn1" /></div>
+        </a>
+        <a href="features.html"
+          ><div><img src="./img/footer-nav-btn2.png" alt="bav-btn2" /></div>
+        </a>
+        <a href="item.html"
+          ><div><img src="./img/footer-nav-btn3.png" alt="bav-btn3" /></div>
+        </a>
+        <a href="howto.html"
+          ><div><img src="./img/footer-nav-btn4.png" alt="bav-btn4" /></div>
+        </a>
+        <a href="access.html"
+          ><div><img src="./img/footer-nav-btn5.png" alt="bav-btn5" /></div>
+        </a>
+        <a href="contact.html"
+          ><div><img src="./img/footer-nav-btn6.png" alt="bav-btn6" /></div>
+        </a>
+      </div>
+
+      <!--footer2ー-->
+      <div class="footer-list">
+        <a href=""><p>FAQ</p></a>
+        <a href=""><p>ご利用ガイド</p></a>
+        <a href=""><p>利用規約</p></a>
+        <a href=""><p>特定商取引に基づく表記</p></a>
+        <a href=""><p>個人情報保護方針</p></a>
+      </div>
+
+      <div class="footer-rogo">
+        <img src="./img/footer-rogo.png" alt="rogo" />
+      </div>
+      <small class="small">&copy; copyright texttexttext</small>
+    </footer>
+  </body>
+</html>
