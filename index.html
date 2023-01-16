@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TEA EMOTION</title>
+
+    <!--CSS-->
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+
+    <script>
+      $(function() {
+        const swiper = new Swiper(".swiper-container", {
+          // Optional parameters
+          loop: true,
+
+          // If we need pagination
+          pagination: {
+            el: ".swiper-pagination"
+          },
+          autoplay: {
+            delay: 2000
+          },
+          // Navigation arrows
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          },
+
+          // And if we need scrollbar
+          scrollbar: {
+            el: ".swiper-scrollbar"
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!--ヘッダー-->
+    <header class="header">
+      <!--ヘッダ1ー-->
+      <div class="header-1">
+        <a href="index.html">
+          <div class="rogo"><img src="./img/rogo.png" alt="rogo" /></div>
+        </a>
+        <a href="https://azumi0910.thebase.in">
+          <div class="online">
+            <img src="./img/online-btn.png" alt="online-btn" />
+          </div>
+        </a>
+      </div>
+      <div class="header-border"></div>
+      <!--ヘッダ2ー-->
+      <div class="header-nav">
+        <a href="about.html"
+          ><div><img src="./img/nav-btn1.png" alt="bav-btn1" /></div>
+        </a>
+        <a href="features.html"
+          ><div><img src="./img/nav-btn2.png" alt="bav-btn2" /></div>
+        </a>
+        <div class="header-nav-item">
+          <a href="item.html">
+          <div><img src="./img/nav-btn3.png" alt="bav-btn3" /></div>
+          <div class="header-nav-list">
+            <div><img src="./img/item-list-btn.png" alt="" /></div></a>
+            <a href="gift.html"><div><img src="./img/gift-btn.png" alt="" /></div></a>
+            <a href="home.html"><div><img src="./img/home-btn.png" alt="" /></div></a>
+          </div>
+        </div>
+        <a href="howto.html"
+          ><div><img src="./img/nav-btn4.png" alt="bav-btn4" /></div>
+        </a>
+        <a href="access.html"
+          ><div><img src="./img/nav-btn5.png" alt="bav-btn5" /></div>
+        </a>
+        <a href="contact.html"
+          ><div><img src="./img/nav-btn6.png" alt="bav-btn6" /></div>
+        </a>
+      </div>
+    </header>
+    <main>
+      <!--mvー-->
+
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/mv.png" alt="mv" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/mv.png" alt="mv" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/mv.png" alt="mv" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/mv.png" alt="mv" />
+          </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!--newsー-->
+      <section class="news">
+        <h1>お知らせ</h1>
+        <div class="border"></div>
+        <div class="news-list">
+          <a href=""
+            ><div class="news-list1">
+              <span>2021.05.01</span>
+              <p>
+                ホームページをオープンしました。ホームページをオープンしました。
+              </p>
+              <br />
+            </div>
+          </a>
+          <a href=""
+            ><div class="news-list1">
+              <span>2021.05.01</span>
+              <p>ホームページをオープンしました。</p>
+              <br />
+            </div>
+          </a>
+          <a href=""
+            ><div class="news-list1">
+              <span>2021.05.01</span>
+              <p>ホームページをオープンしました。</p>
+            </div>
+          </a>
+        </div>
+
+        <a href=""
+          ><div class="more-btn">
+            <p>もっと見る ＞</p>
+          </div>
+        </a>
+      </section>
+
+      <!--featuresー-->
+      <section class="features">
+        <h2>FEATURES</h2>
+        <h3>特集</h3>
+        <a href="features-1.html"
+          ><div class="sincha">
+            <img src="./img/特集バナー　新茶.jpg" alt="新茶" />
+          </div>
+        </a>
+        <a href="features.html"
+          ><div class="continu-btn"><p>もっと見る ＞</p></div>
+        </a>
+      </section>
+
+      <!--staffpickupー-->
+      <section class="staffpickup">
+        <h2>STAFF PICK UP</h2>
+        <h3>スタッフのお気に入り</h3>
+        <a href="item.html">
+          <div class="products-ph">
+            <div class="tea">
+              <img src="./img/sencha.jpg" alt="煎茶" />
+              <p>煎茶<br />3g×1TB<br />&nbsp;&nbsp;&nbsp;108円（税込）</p>
+            </div>
+            <div class="tea">
+              <img src="./img/houjicha.jpg" alt="焙じ茶" />
+              <p>焙じ茶<br />3g×1TB<br />&nbsp;&nbsp;&nbsp;108円（税込）</p>
+            </div>
+            <div class="tea">
+              <img src="./img/gennmaicha.jpg" alt="玄米茶" />
+              <p>玄米茶<br />3g×1TB<br />&nbsp;&nbsp;&nbsp;108円（税込）</p>
+            </div>
+            <div class="tea">
+              <img src="./img/wakouha.jpg" alt="和紅茶" />
+              <p>和紅茶<br />3g×1TB<br />&nbsp;&nbsp;&nbsp;108円（税込）</p>
+            </div>
+          </div>
+        </a>
+        <a href="item.html">
+          <div class="continu-btn2"><p>もっと見る ＞</p></div>
+        </a>
+      </section>
+
+      <!--accessー-->
+      <section class="access">
+        <h2>ACCESS</h2>
+        <h3>アクセス</h3>
+        <article class="access-article">
+          <div class="access-article-ph">
+            <img src="./img/teaemotion_access-ph.jpg" alt="access-ph" />
+          </div>
+          <article class="access-article-p">
+            <p>
+              🚗車でお越しのお客様<br />
+              宮崎自動車道　［宮崎IC］約15分
+            </p>
+            <div class="k-1"></div>
+            <p>
+              🚆電車でお越しのお客様<br />
+              日豊本線［宮崎駅］約3分
+            </p>
+            <div class="k-1"></div>
+            <div class="access-article-p-1">
+              <span>所在地</span>
+              <p class="p-1">
+                〒880-0000<br />
+                宮崎県○○○○○○○○○
+              </p>
+            </div>
+            <div class="k-2"></div>
+            <div class="access-article-p-1">
+              <span>ショップTEL</span>
+              <p class="p-2">
+                00-0000-0000
+              </p>
+            </div>
+            <div class="k-2"></div>
+            <div class="access-article-p-1">
+              <span>ショップFAX</span>
+              <p class="p-3">00-0000-0000</p>
+            </div>
+            <div class="k-2"></div>
+            <div class="access-article-p-1">
+              <span>営業時間</span>
+              <p class="p-4">10:00～20:00</p>
+            </div>
+            <div class="k-2"></div>
+            <div class="access-article-p-1">
+              <span>定休日</span>
+              <p class="p-5">不定休</p>
+            </div>
+          </article>
+        </article>
+      </section>
+    </main>
+
+    <!--footerー-->
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="about.html"
+          ><div><img src="./img/footer-nav-btn1.png" alt="bav-btn1" /></div>
+        </a>
+        <a href="features.html"
+          ><div><img src="./img/footer-nav-btn2.png" alt="bav-btn2" /></div>
+        </a>
+        <a href="item.html"
+          ><div><img src="./img/footer-nav-btn3.png" alt="bav-btn3" /></div>
+        </a>
+        <a href="howto.html"
+          ><div><img src="./img/footer-nav-btn4.png" alt="bav-btn4" /></div>
+        </a>
+        <a href="access.html"
+          ><div><img src="./img/footer-nav-btn5.png" alt="bav-btn5" /></div>
+        </a>
+        <a href="contact.html"
+          ><div><img src="./img/footer-nav-btn6.png" alt="bav-btn6" /></div>
+        </a>
+      </div>
+
+      <!--footer2ー-->
+      <div class="footer-list">
+        <a href=""><p>FAQ</p></a>
+        <a href=""><p>ご利用ガイド</p></a>
+        <a href=""><p>利用規約</p></a>
+        <a href=""><p>特定商取引に基づく表記</p></a>
+        <a href=""><p>個人情報保護方針</p></a>
+      </div>
+
+      <div class="footer-rogo">
+        <img src="./img/footer-rogo.png" alt="rogo" />
+      </div>
+      <small class="small">&copy; copyright texttexttext</small>
+    </footer>
+  </body>
+</html>
